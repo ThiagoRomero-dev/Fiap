@@ -1,0 +1,54 @@
+*
+
+/* style body */
+body {
+  background-color: #FFFFFF !important;
+  background-image: linear-gradient(180deg, #3e4554, #959cb1);
+  height: 100vh;
+  text-align: center;
+  font-family: Montserrat-Regular, Arial, Helvetica, sans-serif;
+
+}
+
+
+/*style imagem logo no body */
+.logoimg {
+    position: relative;
+    top: 103px;
+    width: 120px;
+    height: 120px;
+}
+
+/* form wrapper envolvendo os campos form e botões e dando cor e dimensões de background */
+.formwrapper {
+    padding-top: 90px;
+    background-color: #959cb1;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+/* display alinhando os campos do form no centro */
+.form {
+    display: inline-block;
+}
+
+
+/* arredondando os cantos dos campo de email */
+#email {
+    border-radius: 30px;
+}
+
+/* style do botao de enviar */
+.btn.btn-enviar {
+    color: white;
+    background-color: #13d7bc;
+    border-radius: 30px;
+}
+
+/* style do botao de enviar quando passa o mouse em cima */
+.btn.btn-enviar:hover {
+    color: white;
+    background-color: #11b9a2;
+}

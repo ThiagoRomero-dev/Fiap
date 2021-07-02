@@ -1,0 +1,93 @@
+/* style body */
+body {
+  background-color: #FFFFFF !important;
+  background-image: linear-gradient(180deg, #3e4554, #959cb1);
+  height: 100vh;
+  text-align: center;
+  font-family: Montserrat-Regular, Arial, Helvetica, sans-serif;
+
+}
+
+
+/*style imagem logo no body */
+.logoimg {
+    position: relative;
+    top: 150px;
+    width: 170px;
+    height: 170px;
+}
+
+/*style h1 texto login */
+h1 {
+  font-weight: bold;
+  color: white;
+  font-size: 24px !important;
+  padding-top: 10px;
+}
+
+/* form wrapper envolvendo os campos form e botões e dando cor e dimensões de background */
+.formwrapper {
+    padding-top: 115px;
+    background-color: #959cb1;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+/* display alinhando os campos do form no centro */
+.form {
+    display: inline-block;
+}
+
+
+/* arredondando os cantos dos campos de email e senha */
+#email, #senha {
+    border-radius: 30px;
+}
+
+/* style do botao de login */
+.btn.btn-login {
+    color: white;
+    background-color: #ff6a9c;
+    border-radius: 30px;
+    width: 110px;
+}
+
+/* style do botao de login quando passa o mouse em cima */
+.btn.btn-login:hover {
+    color: white;
+    background-color: #db5985;
+}
+
+/* style do botao de cadastro */
+.btn.btn-cadastro {
+    color: white;
+    background-color: #13d7bc;
+    border-radius: 30px;    
+}
+
+/* style do botao de cadastro quando passa o mouse em cima */
+.btn.btn-cadastro:hover {
+    color: white;
+    background-color: #11b9a2;
+}
+
+/* style do link de resetar a senha em todos os seus estados */
+a.resetar_senha:link {
+  color:white;
+  text-decoration:none;
+  font-weight: bold;
+}
+a.resetar_senha:visited {
+  color:white;
+  text-decoration:none;
+}
+a.resetar_senha:hover {
+  color: whitesmoke;
+  text-decoration:none;
+}
+a.resetar_senha:active {
+  color:white;
+  text-decoration:none;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style_cadastro.css">
+    <link rel="icon" href="images/logo.png">
+    <title>Cadastro</title>
+</head>
+
+
+<body>
+
+  <!– imagem do logo envolvida na div logo_health, class logoimg usada para estilizar no css –>
+    
+    <div class="logo_health">
+      <a href="#"> 
+        <img src="images/logo.png" class="logoimg" alt="logo-health">
+      </a> 
+    </div>
+
+  <!– formwrapper div parent envolvendo as divs childs relacionadas aos campos do form –>
+
+  <div class="formwrapper">
+    <form method="GET" action="login.html">
+      <h1 class="cadastrotxt">Cadastre-se</h1>
+      <div class="form row-md-6">
+        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+      </div>
+      <div class="form row-md-6">
+        <input type="text" class="form-control" id="sobrenome" placeholder="Digite seu sobrenome" required>
+      </div>
+<br><br>
+      <div class="form col-md-9">
+        <input type="email" class="form-control" id="email" placeholder="Digite seu email" required>
+      </div>
+<br><br>
+      <div class="form col-md-9">
+        <input type="password" class="form-control" id="senha" placeholder="Digite sua senha" required>
+      </div>
+<br><br>
+      <div class="form col-md-9">
+        <input type="tel" class="form-control" id="tel" placeholder="Digite seu telefone" required>
+      </div>
+<br><br>
+      <div class="form row-md-4">
+        <input type="date" class="form-control" id="dtnasc" required>
+      </div>
+      <input name="genero" value="masculino" type="radio" > Masculino
+      <input name="genero" value="feminino" type="radio" > Feminino
+   </div>
+   <br><br>
+   <input type="submit" class="btn btn-envio" value="Cadastre-se" >    
+</form>
+</div>
+
+</body>
+
+</html>
